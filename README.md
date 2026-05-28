@@ -63,17 +63,18 @@ export TAVILY_API_KEY="your-tavily-key"
 python Math_Agent.py
 
 Deployment on Hugging Face Spaces
-Create a new Space → Docker SDK.
 
-Push the repository (including Dockerfile, app.py, requirements.txt).
+1. Create a new Space → Docker SDK.
 
-Add Secrets in Settings → Repository Secrets:
+2. Push the repository (including Dockerfile, app.py, requirements.txt).
+
+3. Add Secrets in Settings → Repository Secrets:
 
 GROQ_API_KEY
 
 TAVILY_API_KEY (optional)
 
-The Space will automatically build and run.
+4. The Space will automatically build and run.
 
 Note: The Dockerfile uses a non‑root user, exposes port 7860, and installs all Python dependencies.
 
