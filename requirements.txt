@@ -1,0 +1,8 @@
+gradio>=4.0.0
+langchain-groq
+langgraph
+tavily-python
+sympy
+matplotlib
+numpy
+scipy
